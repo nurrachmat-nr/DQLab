@@ -10,7 +10,9 @@ FROM
 WHERE
     order_status = 'Order Finished'
 GROUP BY
-    years;
+    years
+ORDER BY
+    years ASC;
 
 -- Overall Performance by Product Sub Category
 SELECT
